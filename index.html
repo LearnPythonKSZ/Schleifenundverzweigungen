@@ -31,14 +31,131 @@
 	</div>
 </div>
 <div class=main>
-</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
 	<div class="heading">
-		<h1>Under Construction</h1>
+		<h1>Programmieren</h1>
 	</div>
 	<div class="übertitel">
-		<h3>Coming soon!</h3>
+		<h3>Vergleiche und If-Verzweigungen</h3>
 	</div>
-</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+	<div class="text"> 
+		<p>Erinnert ihr euch noch an das Beispiel ganz am Anfang, anhand der Funktion "if"? Diese werden wir nun behandeln. Mithilfe der If-Verzweigung könnt ihr überprüfen ob ein Ausdruck wahr oder falsch ist. Ein Beispiel hierfür wäre 5==4. Python überprüft hier ob 5 gleich 4 ist. Die wichtigsten Vergleiche sind: </p> 
+		</br> 
+	</div>
+	<div class="achtungheader">
+		<p>Vergleiche</p>
+	</div>
+	<div class="achtung">
+		<p>X==Y --> X ist gleich Y </p>
+		</br>
+		<p>X!=Y --> X ist ungleich Y </p>
+		</br>
+		<p> X&lt;Y oder X&gt;Y --> X ist kleiner bzw. grösser als Y </p>
+		</br>
+		<p>X&lt;=Y oder X&gt;=Y --> X ist kleiner gleich bzw. grösser gleich Y </p>
+		</br>
+	</div>
+		<div class="text"> 
+		<p>Man kann ausserdem mehrere Vergleiche mit den "boolschen Operatoren" verketten. </p> 
+		</br> 
+	</div>
+		<div class="achtungheader">
+		<p>Boolsche Operatoren</p>
+	</div>
+	<div class="achtung">
+		<p>"Vergleich1" or "Vergleich2" -> Wahr, wenn einer der beiden Vergleiche wahr ist. </p>
+		</br>
+		<p>"Vergleich1" and "Vergleich2"-> Wahr, wenn beide Vergleiche wahr ist. </p>
+		</br>
+		<p>Not "Vergleich1" -> Ist Wahr falls Vergleich1 falsch ist und falsch falls Vergleich1 wahr ist. </p>
+		</br>
+	</div>
+		<div class="text"> 
+		<p>Bei der If-Verzweigung wird, falls die Bedingung wahr ist, der jeweilige, vordefinierte Programmabschnitt ausgeführt. Sonst wird der vordefinierte Programmabschnitt nach dem else: ausgeführt. Man kann auch mehere If-Verzweigungen verschachteln mithilfe von elif. Diese kommt anstelle von else: und wird ausgeführt falls die erste Bedingung nicht zutrifft.  </p> 
+		</br> 
+	</div>
+		</div>
+		<div class="achtungheader">
+		<p>If-Verzweigung</p>
+	</div>
+	<div class="achtungcode">
+		<p>if "Bedingung": </p>
+		</br>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;"Code falls Bedingung zutrifft" </p>
+		</br>
+		<p>elif "Bedingung2": </p>
+		</br>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;"Code falls Bedingung2 zutrifft" </p>
+		</br>
+		<p>else: </p>
+		</br>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;"Code falls Bedingung2 nicht zutrifft" </p>
+		</br>
+	</div>
+	<div class="text"> 
+		<p>Diese Bedingungen kann man ebenfalls als Variable speichern. Diese nehmen dann entweder den Wert "true" oder false" an. Diese Variablen entsprechen einem uns noch unbekannten Datentypen, nämlich dem Datentyp boolean. Da die If-verzweigung nur überprüft, ob der Wert des Codes "true" oder "false" ist (daher kommt auch der eigentliche Name für die "Bedingungen", nämlich "boolsche Ausdrücke"), könnt ihr eine "boolean" Variable anstelle der "Bedingung verwenden.</p> 
+		</br> 
+	</div>
+	<div class="achtungheader">
+		<p>Datentyp: Boolean</p>
+	</div>
+	<div class="achtungcode">
+		<p>Variable2=true</p>
+		</br>
+		<p>If "Variable2":</p>
+		</br>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;"Dieser Code wird ausgeführt, da Variable 2 den Wert "true" hat" </p>
+		</br>
+	</div>
+			<
+	<div class="text"> 
+		<p>Falls man einen Codeblock mehrmals ausführen will, kann man das bei Python mithilfe der "While"- und der "For"-Schleife umsetzen. "While" funktioniert ähnlich wie eine if-Verzweigung. Der angegebene Codeblock wird so oft ausgeführt, bis die Bedingung nicht mehr zutrifft. Bei der "While"-Schleife, sollte man allerdings aufpassen, dass die Schleife einen Endpunkt hat, da sie sonst unendlich lange weiterläuft. </p> 
+		</br> 
+	</div>
+<div class="achtungheader">
+		<p>"While"-Schleife</p>
+	</div>
+	<div class="achtungcode">
+		<p>while "Bedingung":</p>
+		</br>
+		<p>If "Variable2":</p>
+		</br>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;"Dieser Codeblock wird so lange wiederholt, bis die Bedingung nicht mehr zutrifft"</p>
+		</br>
+	</div>
+	<div class="text"> 
+		<p>Die "For"-Schleife hingegen, weist einer angegebenen Variable (Bsp. X) nacheinander alle Zahlen eines gewissen Bereiches beziehungsweise einer gewissen Sequenz zu. Für jeden neuen Wert der Variable wird der Code in der "For"-Schleife einmal ausgeführt. Dabei kann man diesen Wert der Variable auch in der "For"-schleife verwenden. </p> 
+		</br> 
+	</div>
+		<div class="achtungheader">
+		<p>"For-Schleife"</p>
+	</div>
+	<div class="achtungcode">
+		<p>For i in range(x,y):</p>
+		</br>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;"Dieser Code wird y-x mal ausgeführt und führt dabei den Codeblock für jede Zahl zwischen x   und y einmal durch. Die Variable i nimmt dabei die entsprechende Zahl an."  </p>
+		</br>
+		<p<Alternativ:</p>
+		<p>For i in Liste1: </p>
+		</br>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;"Dieser code wird so oft durchgeführt, wie es Elemente in Liste1 hat. I nimmt dabei, der Reihenfolge nach, den jeweiligen Wert an. </p>
+		</br>
+	</div>
+	<div class="text"> 
+		<p>Wenn man die "For"- oder "While"-Schleife schon vorzeitig beenden möchte, kann man dies mit "break" bewerkstelligen.</p> 
+		</br> 
+	</div>
+		<div class="achtungheader">
+		<p>Break</p>
+	</div>
+	<div class="achtung">
+		<p>Break --> bewirkt eine vorzeitige Beendung der "For"- oder "While"-Schleife </p>
+	</div>
+	<div class="übertitel">
+	<h2>Begriffserklärungen</h2>
+	</div>
+<div class="Begriffserklärungen">
+	<p class="Begriffe">Under Construction<p>
+	</div>
 	<div class="end" id="end">
 	<img class="img" src="Bilder/Logo.png">
 	<span>LearnPython.ch ist eine öffentliche Website, welche primär für die Schüler der Kantonsschule Zug zur Verfügung steht. Wir übernehmen keine Haftung für allfällige Fehler des Inhaltes und den daraus entstehenden Schäden.<br>Copyright &copy; Yves Bischofberger 2017</p>
