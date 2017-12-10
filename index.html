@@ -148,6 +148,28 @@
 	<div class="achtung">
 		<p>Break --> bewirkt eine vorzeitige Beendung der "For"- oder "While"-Schleife </p>
 	</div>
+	<div class="question">
+	<p>Fülle den folgenden Lückentext aus und studiere den folgenden Programmcode</p>
+	</div>
+	</br>
+	<div class="code">
+	<p>Import Random</p>
+	<p>n=20</p>
+	<p>to_be_guessed = int(n * random.random()) + 1</p>
+	<p>guess = 0</p>
+	<p>while guess != to_be_guessed:</p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp; guess = input("Neue Zahl: ")</p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp; if guess &gt; 0:</p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if guess &gt; to_be_guessed:</p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; print "Zahl zu groß"</p>
+	<input type="text" id="codebox1" name="elif" onchange="gap();" > <label class="label">guess &lt; to_be_guessed:</label>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; print "Zahl zu klein"</p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp; else:</p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; print "Schade, Sie geben also auf!"</p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; break</p>
+	<p>else:</p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp; print "Glückwunsch! Das war's!"</p>	
+	</div>
 	<div class="question" id="question">
 	<p>var =(3&lt;=4 and 4!=4.0)or(not 34&gt;32), welcher Wert hat die Variable var?</p>
 	</div>
