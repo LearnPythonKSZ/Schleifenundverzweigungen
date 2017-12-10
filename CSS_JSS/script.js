@@ -5,7 +5,7 @@ function Question(name){
 		document.getElementById("answer1").className="answer";
 		document.getElementById("answer2").className="answer";
 		document.getElementById("answer3").className="answer";
-		document.getElementById("answer4").className="answer";
+		document.getElementById("answer4").className="answertrue";
 		document.getElementById("next").className="nextunlocked";
 		document.getElementById("next").value="Nächstes Kapitel";
 	}else{
@@ -23,5 +23,20 @@ function Question(name){
 				document.getElementById("answer4").className="answercrossed";
 				break;
 		}
+	}
+}
+function answerfunction() {
+    var answer=document.getElementById("answercheck").value;
+	if (answer=="false"||answer=="False"){
+		document.getElementById("next").className="nextunlocked";
+		document.getElementById("next").value="Nächstes Kapitel";
+	}
+}
+function gap() {
+	var answer=document.getElementById("codebox1").value;
+	var solution=document.getElementById("codebox1").name;
+	if (answer==solution){
+		document.getElementById("next").className="nextunlocked";
+		document.getElementById("next").value="Nächstes Kapitel";
 	}
 }
