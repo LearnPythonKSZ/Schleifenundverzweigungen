@@ -4,18 +4,6 @@ body {
 	margin: 0;
 	padding: 0;
 }
-input[type=text] {
-	position: relative;
-	height: 25px;
-	width: 25%;
-	left: 37.5%;
-	right: 37.5%;
-	color: black;
-	border: solid 3px black;
-	padding-left: 10px;
-	padding-right: 10px;
-	background-color: white;
-}
 ::-webkit-input-placeholder {
 	color: black;
 	opacity: 1
@@ -80,6 +68,18 @@ input[type=text] {
 	color: white;
 	background-color: black;
 }
+input[id=answercheck] {
+	position: relative;
+	height: 25px;
+	width: 25%;
+	left: 37.5%;
+	right: 37.5%;
+	color: black;
+	border: solid 3px black;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: white;
+}
 .linkselected {
 	text-decoration: none;
 	color: yellow;
@@ -88,6 +88,22 @@ input[type=text] {
 	margin-left: 10px;
 	margin-right: 20px;
 	font-family: 'Lato', sans-serif;
+}
+.code{
+	left: 10px;
+	text-align: left;
+	border: solid 1px black;
+}
+input[id=codebox1]{
+	position: relative;
+	border: solid 1px black;
+	left: 3em;
+	height: 1em;
+	width: 2em;
+	}
+.label{
+	position: relative;
+	left: 2.5em;
 }
 .linkglossarselected {
 	color: blue;
