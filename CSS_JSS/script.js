@@ -21,6 +21,7 @@ function pointunlock() {
 	if (points >= pointsneeded){
 		document.getElementById("next").className="nextunlocked";
 		document.getElementById("next").value="Nächstes Kapitel";
+		document.getElementById("buttonhref").href="/IDE"
 	}
 }
 function Question(name){
