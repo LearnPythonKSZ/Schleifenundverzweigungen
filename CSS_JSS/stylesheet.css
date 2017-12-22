@@ -101,6 +101,11 @@ input[id=answercheck] {
 	text-align: left;
 	border: solid 1px black;
 }
+.codeorange{
+	left: 10px;
+	text-align: left;
+	color: orange;
+}
 input[id=codebox1]{
 	position: relative;
 	border: solid 1px black;
