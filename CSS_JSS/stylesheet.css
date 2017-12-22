@@ -122,6 +122,7 @@ input[id=codebox1]{
 	left: 3em;
 	height: 1em;
 	width: 2em;
+	color: orange;
 	}
 .label{
 	position: relative;
