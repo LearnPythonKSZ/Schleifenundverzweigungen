@@ -106,6 +106,16 @@ input[id=answercheck] {
 	text-align: left;
 	color: orange;
 }
+.codepurple{
+	left: 10px;
+	text-align: left;
+	color: purple;
+}
+.codegreen{
+	left: 10px;
+	text-align: left;
+	color: green;
+}
 input[id=codebox1]{
 	position: relative;
 	border: solid 1px black;
