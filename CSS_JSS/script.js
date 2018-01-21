@@ -37,17 +37,8 @@ function solution(idbutton){
  	}
  }
  function help(idtext,idbutton,scroll){
-	var idh = idbutton.getAttribute("id");
- 	if (idh == "helpbutton1") {
  	idbutton.style.display = "none";
  	idtext.style.display = "block";
- 	} else if (idh=="helpbutton2") {
- 	idbutton.style.display = "none";
-	location.href = "#scrollto";
- 	idtext.style.backgroundColor="yellow";
-	}else{ 
-     alert("an error occured pls contact system admin #1");
- 	}
  }
 function pointunlock() {
 	points = pointgap + pointanswerfunction + pointquestion;
