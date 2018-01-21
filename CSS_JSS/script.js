@@ -11,6 +11,7 @@ function number(){
 		document.getElementById("diff").innerHTML=differenz;
 	}
 	else{
+		
 		document.getElementById("unlocked").innerHTML="Weitere Aufgaben";
 	}
 }
