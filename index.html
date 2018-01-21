@@ -43,7 +43,7 @@
 	<div class="achtungheader">
 		<p>Vergleiche</p>
 	</div>
-	<div class="achtung">
+	<div class="achtung" id="scrollto">
 		<p>X==Y --> X ist gleich Y </p>
 		</br>
 		<p>X!=Y --> X ist ungleich Y </p>
@@ -63,7 +63,7 @@
 	<div class="achtung">
 		<p>"Vergleich1" and "Vergleich2"-> Wahr, wenn beide Vergleiche wahr ist. </p>
 		</br>
-		<p>"Vergleich1" or "Vergleich2" -> Wahr, wenn einer der beiden Vergleiche wahr ist. </p>
+		<p><span id=andor>"Vergleich1" or "Vergleich2" -> Wahr, wenn einer der beiden Vergleiche wahr ist. </span></p>
 		</br>
 		<p>Not "Vergleich1" -> Ist Wahr falls Vergleich1 falsch ist und falsch falls Vergleich1 wahr ist. </p>
 		</br>
@@ -151,7 +151,9 @@
 	</div>
 	<div class="question">
 	<p>Fülle den folgenden Lückentext aus und studiere den folgenden Programmcode</p>
+	<button id="helpbutton1"  class="helpbutton" onclick="help(helpbuttontext1,helpbutton1,null)">?</button>
 	</div>
+	<p id="helpbuttontext1" class="hilfetext" style="display:none" >Die 3. ist richtig, da....</p>
 	</br>
 	<div class="code">
 	<p><span class=codeorange>Import</span> Random</p>
@@ -171,13 +173,16 @@
 	<p><span class=codeorange>else</span>:</p>
 	<p>&nbsp;&nbsp;&nbsp;&nbsp; <span class=codepurple>print</span> (<span class=codegreen>"Glückwunsch! Das war's!"</span>)</p>	
 	</div>
+<button id="solutionbutton1"  class="solutionbutton" onclick="solution(solutionbutton1)"><span id="solutiontag1">Lösung anzeigen</span><span id="solution1" class="solution">Lösungstext1</span></button>
 	<div class="question" id="question">
 	<p>var =(3&lt;=4 and 4!=4.0)or(not 34&gt;32), welcher Wert hat die Variable var?</p>
+	<button id="helpbutton2" value="scrollto" class="helpbutton" onclick="help(andor,helpbutton2,scrollto)">?</button>
 	</div>
 	</br>	
 	<div>
 	<input type="text" id="answercheck" onchange="answerfunction()" >
 	</div>
+<button id="solutionbutton2"  class="solutionbutton" onclick="solution(solutionbutton2)"><span id="solutiontag2">Lösung anzeigen</span><span id="solution2" class="solution">Lösungstext2</span></button>
 	</br>
 	<p class="textpoint">Du hast momentan:&nbsp;<span id="point"></span>&nbsp;Punkte
 	</br>
