@@ -11,7 +11,7 @@ function number(){
 		document.getElementById("diff").innerHTML=differenz;
 	}
 	else{
-		document.getElementById("unlocked").innerHTML="Du hast das nächste Kapitel freigeschaltet";
+		document.getElementById("unlocked").innerHTML="Weitere Aufgaben";
 	}
 }
 function solution(idbutton){
