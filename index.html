@@ -153,7 +153,7 @@
 	<p>Fülle den folgenden Lückentext aus und studiere den folgenden Programmcode</p>
 	<button id="helpbutton1"  class="helpbutton" onclick="help(helpbuttontext1,helpbutton1,null)">?</button>
 	</div>
-	<p id="helpbuttontext1" class="hilfetext" style="display:none" >Die 3. ist richtig, da....</p>
+	<p id="helpbuttontext1" class="hilfetext" style="display:none" >Überlege dir, welche Alternativen schon durch die Bedingung, welche auf den Befehl folgt, ausschliessen können. Schau dir ansonsten auch den Zusammenhang an und gehe einen theoretischen Ablauf mit dem Kopf durch und überlege dir, was dort Sinn macht.</p>
 	</br>
 	<div class="code">
 	<p><span class=codeorange>Import</span> Random</p>
@@ -173,7 +173,7 @@
 	<p><span class=codeorange>else</span>:</p>
 	<p>&nbsp;&nbsp;&nbsp;&nbsp; <span class=codepurple>print</span> (<span class=codegreen>"Glückwunsch! Das war's!"</span>)</p>	
 	</div>
-<button id="solutionbutton1"  class="solutionbutton" onclick="solution(solutionbutton1)"><span id="solutiontag1">Lösung anzeigen</span><span id="solution1" class="solution">Lösungstext1</span></button>
+<button id="solutionbutton1"  class="solutionbutton" onclick="solution(solutionbutton1)"><span id="solutiontag1">Lösung anzeigen</span><span id="solution1" class="solution">Aus dem Zusammenhang geht klar heraus, dass in der Lücke elif gefragt ist. Denn falls die if Abfrage, ob die geratene Zahl zu gross ist nicht zutrifft, will man überprüfen ob die geratene Zahl zu klein ist. Hier kommt also nur ein elif in Frage.</span></button>
 	<div class="question" id="question">
 	<p>wahroderfalsch = (3&lt;=4 and 4!=4.0)or(not 34&gt;32), welcher Wert hat die Variable wahroderfalsch?</p>
 	<button id="helpbutton2" value="scrollto" class="helpbutton" onclick="help(andor,helpbutton2,scrollto)">?</button>
@@ -182,7 +182,7 @@
 	<div>
 	<input type="text" id="answercheck" onchange="answerfunction()" >
 	</div>
-<button id="solutionbutton2"  class="solutionbutton" onclick="solution(solutionbutton2)"><span id="solutiontag2">Lösung anzeigen</span><span id="solution2" class="solution">Lösungstext2</span></button>
+<button id="solutionbutton2"  class="solutionbutton" onclick="solution(solutionbutton2)"><span id="solutiontag2">Lösung anzeigen</span><span id="solution2" class="solution">Da 4 und 4.0 das gleiche ist, ist 4!=4.0 falsch, wegen dem boolschen operator «and», ist der Wert dieses Vergleiches «false». Wegen dem boolschen Operator «or» müsste allerdings, dass der Wert von wahroderfalsch wahr ist, nur einer der beiden wahr sein. Da 34 allerdings grösser als 32 ist und das not dieses «true» zu einem «false» ändert, sind beide «false» und somit ist auch wahroderfalsch «false».</span></button>
 	</br>
 	<p class="textpoint">Du hast momentan:&nbsp;<span id="point"></span>&nbsp;Punkte
 	</br>
