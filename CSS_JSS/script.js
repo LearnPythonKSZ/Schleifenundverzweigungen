@@ -109,6 +109,6 @@ function gap() {
 		
 	}else{
 		document.getElementById("codebox1").style.border = "solid 1px red";
-		document.getElementById("codeboxcolor").style.border = "solid red
+		document.getElementById("codeboxcolor").style.border = "solid red";
 	}
 }
