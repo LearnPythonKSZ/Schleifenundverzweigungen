@@ -55,8 +55,8 @@ function pointunlock() {
 	number();
 	if (points >= pointsneeded){
 		document.getElementById("next").className="nextunlocked";
-		document.getElementById("next").value="Nächstes Kapitel";
-		document.getElementById("buttonhref").href="/AboutMe/"
+		document.getElementById("next").value="Weitere Aufgaben";
+		document.getElementById("buttonhref").href="/Aufgaben/"
 	}
 }
 function Question(name){
