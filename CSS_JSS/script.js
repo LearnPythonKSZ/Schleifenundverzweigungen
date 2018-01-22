@@ -90,12 +90,12 @@ function Question(name){
 function answerfunction() {
     var answer=document.getElementById("answercheck").value;
 	if (answer=="false"||answer=="False"){
-		document.getElementById("answercheck1").style.border = "solid 3px green";
+		document.getElementById("answercheck").style.border = "solid 3px green";
 		pointanswerfunction = 1;
 		pointunlock();
 	
 	}else{
-	document.getElementById("answercheck1").style.border = "solid 3px red";
+	document.getElementById("answercheck").style.border = "solid 3px red";
 	}
 }
 function gap() {
@@ -105,7 +105,10 @@ function gap() {
 		pointgap = 1;
 		pointunlock();
 		document.getElementById("codebox1").style.border = "solid 1px green";
+		document.getElementById("codeboxcolor").style.border = "solid green";
+		
 	}else{
 		document.getElementById("codebox1").style.border = "solid 1px red";
+		document.getElementById("codeboxcolor").style.border = "solid red
 	}
 }
