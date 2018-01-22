@@ -90,9 +90,12 @@ function Question(name){
 function answerfunction() {
     var answer=document.getElementById("answercheck").value;
 	if (answer=="false"||answer=="False"){
+		document.getElementById("answercheck1").style.border = "solid 3px green";
 		pointanswerfunction = 1;
 		pointunlock();
-
+	
+	}else{
+	document.getElementById("answercheck1").style.border = "solid 3px red";
 	}
 }
 function gap() {
@@ -101,5 +104,8 @@ function gap() {
 	if (answer==solution){
 		pointgap = 1;
 		pointunlock();
+		document.getElementById("codebox1").style.border = "solid 1px green";
+	}else{
+		document.getElementById("codebox1").style.border = "solid 1px red";
 	}
 }
