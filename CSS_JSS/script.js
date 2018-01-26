@@ -6,6 +6,8 @@ var pointsneeded=1;
 var differenz= pointsneeded-points;
 function number(){
 	document.getElementById("point").innerHTML= points;
+	document.getElementById("pointanswerfunction").innerHTML= pointanswerfunction;
+	document.getElementById("pointsgap").innerHTML= pointgap;
 	if(pointsneeded-points>0){
 		differenz= pointsneeded-points;
 		document.getElementById("diff").innerHTML=differenz;
@@ -92,6 +94,7 @@ function answerfunction() {
 	if (answer=="false"||answer=="False"){
 		document.getElementById("answercheck").style.border = "solid 3px green";
 		pointanswerfunction = 1;
+		document.getElementById("pointanswerfunction").innerHTML= pointanswerfunction;
 		pointunlock();
 	
 	}else{
@@ -103,6 +106,7 @@ function gap() {
 	var solution=document.getElementById("codebox1").name;
 	if (answer==solution){
 		pointgap = 1;
+		document.getElementById("pointsgap").innerHTML= pointgap;
 		pointunlock();
 		document.getElementById("codebox1").style.border = "solid 1px green";
 		document.getElementById("codeboxcolor").style.border = "solid green";
