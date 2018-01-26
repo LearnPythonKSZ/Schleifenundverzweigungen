@@ -180,7 +180,7 @@ input[id=codebox1]{
 	margin-left: 10px;
 	margin-right: 20px;
 	opacity: 1;
-	font-size: 80%;
+	font-size: 70%;
 	font-family: 'Lato', sans-serif;
 }
 .linkselected::selection{
@@ -262,7 +262,7 @@ div.navigation{
 	margin-left: 10px;
 	margin-right: 20px;
 	opacity: 0.5;
-	font-size: 80%;
+	font-size: 70%;
 	font-family: 'Lato', sans-serif;
 }
 .linkglossar{
@@ -273,7 +273,7 @@ div.navigation{
 	margin-left: 10px;
 	margin-right: 20px;
 	opacity: 1;
-	font-size: 80%;
+	font-size: 70%;
 	font-family: 'Lato', sans-serif;
 }
 .linkglossar:hover {
