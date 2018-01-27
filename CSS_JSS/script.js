@@ -2,7 +2,7 @@ var points=0;
 var pointgap = 0;
 var pointanswerfunction = 0;
 var pointquestion=0;
-var pointsneeded=1;
+var pointsneeded=2;
 var differenz= pointsneeded-points;
 function number(){
 	document.getElementById("point").innerHTML= points;
@@ -14,7 +14,7 @@ function number(){
 	}
 	else{
 		
-		document.getElementById("unlocked").innerHTML="Weitere Aufgaben";
+		document.getElementById("unlocked").innerHTML="Du hast alle Aufgaben richtig gelöst.";
 	}
 }
 function solution(idbutton){
